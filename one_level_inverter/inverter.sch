@@ -86,3 +86,14 @@ value="
 "
 spice_ignore=falsname=s1 only_toplevel=false value=blabla}
 C {devices/opin.sym} 180 -130 0 0 {name=p2 lab=Y}
+C {devices/simulator_commands_shown.sym} 290 0 0 0 {name=Xyce
+simulator=xyce
+only_toplevel=false 
+value="
+
+** Currently (Xyce 7.5) these diode models
+** are not recognized
+.tran 0.01n 1u
+.print TRAN FORMAT=CSV FILE=/foss/designs/AnalogLAB/one_level_inverter/inverter.csv V(*)
+
+"}
