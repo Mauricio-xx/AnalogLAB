@@ -1,0 +1,67 @@
+
+*****
+***** Welcome to the Xyce(TM) Parallel Electronic Simulator
+*****
+***** This is version Xyce Release 7.6-opensource
+***** Date: Wed Dec 28 19:29:00 CET 2022
+
+
+***** Executing netlist nfet_lvt/sky130_fd_pr__nfet_01v8_lvt__model.79
+
+***** Reading and parsing netlist...
+Netlist warning in file
+ /foss/pdks/sky130A/libs.tech/ngspice/corners/../../../libs.ref/sky130_fd_pr/spice/sky130_fd_pr__nfet_01v8_lvt__tt.pm3.spice
+ at or near line 23959
+ Device model XM1:SKY130_FD_PR__NFET_01V8_LVT__MODEL.87: Model card specifies
+ BSIM4 version 4.5 which is older than the oldest version supported in Xyce
+ (4.6.1).  Using oldest version available.
+ 
+Netlist warning in file
+ /foss/pdks/sky130A/libs.tech/ngspice/corners/../../../libs.ref/sky130_fd_pr/spice/sky130_fd_pr__nfet_01v8_lvt__tt.pm3.spice
+ at or near line 23959
+ Device model XM1:SKY130_FD_PR__NFET_01V8_LVT__MODEL.87: Given pbswgd is less
+ than 0.1. Pbswgd is set to 0.1
+Netlist warning in file
+ /foss/pdks/sky130A/libs.tech/ngspice/corners/../../../libs.ref/sky130_fd_pr/spice/sky130_fd_pr__nfet_01v8__tt.pm3.spice
+ at or near line 43180
+ Device model XM2:SKY130_FD_PR__NFET_01V8__MODEL.161: Model card specifies
+ BSIM4 version 4.5 which is older than the oldest version supported in Xyce
+ (4.6.1).  Using oldest version available.
+ 
+Netlist warning in file
+ /foss/pdks/sky130A/libs.tech/ngspice/corners/../../../libs.ref/sky130_fd_pr/spice/sky130_fd_pr__nfet_01v8__tt.pm3.spice
+ at or near line 43180
+ Device model XM2:SKY130_FD_PR__NFET_01V8__MODEL.161: Given pbswgd is less
+ than 0.1. Pbswgd is set to 0.1
+Netlist error in file
+ /foss/pdks/sky130A/libs.tech/ngspice/corners/../../../libs.ref/sky130_fd_pr/spice/sky130_fd_pr__pfet_01v8_lvt__tt.pm3.spice
+ at or near line 33
+ Model is required for device MSKY130_FD_PR__PFET_01V8_LVT and no valid model
+ card found.
+Netlist warning in file
+ /foss/pdks/sky130A/libs.tech/ngspice/corners/../../../libs.ref/sky130_fd_pr/spice/sky130_fd_pr__pfet_01v8__tt.pm3.spice
+ at or near line 29352
+ Device model XM4:SKY130_FD_PR__PFET_01V8__MODEL.107: Model card specifies
+ BSIM4 version 4.5 which is older than the oldest version supported in Xyce
+ (4.6.1).  Using oldest version available.
+ 
+Netlist warning in file
+ /foss/pdks/sky130A/libs.tech/ngspice/corners/../../../libs.ref/sky130_fd_pr/spice/sky130_fd_pr__pfet_01v8__tt.pm3.spice
+ at or near line 29352
+ Device model XM4:SKY130_FD_PR__PFET_01V8__MODEL.107: Given pbswgd is less
+ than 0.1. Pbswgd is set to 0.1
+Netlist warning in file
+ /foss/pdks/sky130A/libs.tech/ngspice/corners/../../../libs.ref/sky130_fd_pr/spice/sky130_fd_pr__pfet_01v8_hvt__tt.pm3.spice
+ at or near line 50418
+ Device model XM5:SKY130_FD_PR__PFET_01V8_HVT__MODEL.188: Model card specifies
+ BSIM4 version 4.5 which is older than the oldest version supported in Xyce
+ (4.6.1).  Using oldest version available.
+ 
+Netlist warning in file
+ /foss/pdks/sky130A/libs.tech/ngspice/corners/../../../libs.ref/sky130_fd_pr/spice/sky130_fd_pr__pfet_01v8_hvt__tt.pm3.spice
+ at or near line 50418
+ Device model XM5:SKY130_FD_PR__PFET_01V8_HVT__MODEL.188: Given pbswgd is less
+ than 0.1. Pbswgd is set to 0.1
+Simulation aborted due to error.  There are 0 MSG_FATAL errors and 1 MSG_ERROR
+ errors
+*** Xyce Abort ***

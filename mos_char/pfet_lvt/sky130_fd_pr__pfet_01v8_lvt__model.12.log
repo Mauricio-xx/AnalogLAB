@@ -1,0 +1,1305 @@
+
+*****
+***** Welcome to the Xyce(TM) Parallel Electronic Simulator
+*****
+***** This is version Xyce Release 7.6-opensource
+***** Date: Wed Dec 28 19:34:09 CET 2022
+
+
+***** Executing netlist pfet_lvt/sky130_fd_pr__pfet_01v8_lvt__model.12
+
+***** Reading and parsing netlist...
+Netlist warning in file
+ /foss/pdks/sky130A/libs.tech/ngspice/corners/../../../libs.ref/sky130_fd_pr/spice/sky130_fd_pr__nfet_01v8_lvt__tt.pm3.spice
+ at or near line 3059
+ Device model XM1:SKY130_FD_PR__NFET_01V8_LVT__MODEL.11: Model card specifies
+ BSIM4 version 4.5 which is older than the oldest version supported in Xyce
+ (4.6.1).  Using oldest version available.
+ 
+Netlist warning in file
+ /foss/pdks/sky130A/libs.tech/ngspice/corners/../../../libs.ref/sky130_fd_pr/spice/sky130_fd_pr__nfet_01v8_lvt__tt.pm3.spice
+ at or near line 3059
+ Device model XM1:SKY130_FD_PR__NFET_01V8_LVT__MODEL.11: Given pbswgd is less
+ than 0.1. Pbswgd is set to 0.1
+Netlist warning in file
+ /foss/pdks/sky130A/libs.tech/ngspice/corners/../../../libs.ref/sky130_fd_pr/spice/sky130_fd_pr__nfet_01v8__tt.pm3.spice
+ at or near line 3516
+ Device model XM2:SKY130_FD_PR__NFET_01V8__MODEL.13: Model card specifies
+ BSIM4 version 4.5 which is older than the oldest version supported in Xyce
+ (4.6.1).  Using oldest version available.
+ 
+Netlist warning in file
+ /foss/pdks/sky130A/libs.tech/ngspice/corners/../../../libs.ref/sky130_fd_pr/spice/sky130_fd_pr__nfet_01v8__tt.pm3.spice
+ at or near line 3516
+ Device model XM2:SKY130_FD_PR__NFET_01V8__MODEL.13: Given pbswgd is less than
+ 0.1. Pbswgd is set to 0.1
+Netlist warning in file
+ /foss/pdks/sky130A/libs.tech/ngspice/corners/../../../libs.ref/sky130_fd_pr/spice/sky130_fd_pr__pfet_01v8_lvt__tt.pm3.spice
+ at or near line 3322
+ Device model XM3:SKY130_FD_PR__PFET_01V8_LVT__MODEL.12: Model card specifies
+ BSIM4 version 4.5 which is older than the oldest version supported in Xyce
+ (4.6.1).  Using oldest version available.
+ 
+Netlist warning in file
+ /foss/pdks/sky130A/libs.tech/ngspice/corners/../../../libs.ref/sky130_fd_pr/spice/sky130_fd_pr__pfet_01v8_lvt__tt.pm3.spice
+ at or near line 3322
+ Device model XM3:SKY130_FD_PR__PFET_01V8_LVT__MODEL.12: Given pbswgd is less
+ than 0.1. Pbswgd is set to 0.1
+Netlist warning in file
+ /foss/pdks/sky130A/libs.tech/ngspice/corners/../../../libs.ref/sky130_fd_pr/spice/sky130_fd_pr__pfet_01v8__tt.pm3.spice
+ at or near line 3596
+ Device model XM4:SKY130_FD_PR__PFET_01V8__MODEL.13: Model card specifies
+ BSIM4 version 4.5 which is older than the oldest version supported in Xyce
+ (4.6.1).  Using oldest version available.
+ 
+Netlist warning in file
+ /foss/pdks/sky130A/libs.tech/ngspice/corners/../../../libs.ref/sky130_fd_pr/spice/sky130_fd_pr__pfet_01v8__tt.pm3.spice
+ at or near line 3596
+ Device model XM4:SKY130_FD_PR__PFET_01V8__MODEL.13: Given pbswgd is less than
+ 0.1. Pbswgd is set to 0.1
+Netlist warning in file
+ /foss/pdks/sky130A/libs.tech/ngspice/corners/../../../libs.ref/sky130_fd_pr/spice/sky130_fd_pr__pfet_01v8_hvt__tt.pm3.spice
+ at or near line 3518
+ Device model XM5:SKY130_FD_PR__PFET_01V8_HVT__MODEL.13: Model card specifies
+ BSIM4 version 4.5 which is older than the oldest version supported in Xyce
+ (4.6.1).  Using oldest version available.
+ 
+Netlist warning in file
+ /foss/pdks/sky130A/libs.tech/ngspice/corners/../../../libs.ref/sky130_fd_pr/spice/sky130_fd_pr__pfet_01v8_hvt__tt.pm3.spice
+ at or near line 3518
+ Device model XM5:SKY130_FD_PR__PFET_01V8_HVT__MODEL.13: Given pbswgd is less
+ than 0.1. Pbswgd is set to 0.1
+***** Setting up topology...
+
+Netlist warning in file
+ /foss/pdks/sky130A/libs.tech/ngspice/corners/../../../libs.ref/sky130_fd_pr/spice/sky130_fd_pr__pfet_01v8__tt.pm3.spice
+ at or near line 33
+ Device instance XM4:MSKY130_FD_PR__PFET_01V8: Source conductance reset to
+ 1.0e3 mho
+Netlist warning in file
+ /foss/pdks/sky130A/libs.tech/ngspice/corners/../../../libs.ref/sky130_fd_pr/spice/sky130_fd_pr__pfet_01v8__tt.pm3.spice
+ at or near line 33
+ Device instance XM4:MSKY130_FD_PR__PFET_01V8: Drain conductance reset to
+ 1.0e3 mho
+Netlist warning in file
+ /foss/pdks/sky130A/libs.tech/ngspice/corners/../../../libs.ref/sky130_fd_pr/spice/sky130_fd_pr__pfet_01v8_lvt__tt.pm3.spice
+ at or near line 33
+ Device instance XM3:MSKY130_FD_PR__PFET_01V8_LVT: Source conductance reset to
+ 1.0e3 mho
+Netlist warning in file
+ /foss/pdks/sky130A/libs.tech/ngspice/corners/../../../libs.ref/sky130_fd_pr/spice/sky130_fd_pr__pfet_01v8_lvt__tt.pm3.spice
+ at or near line 33
+ Device instance XM3:MSKY130_FD_PR__PFET_01V8_LVT: Drain conductance reset to
+ 1.0e3 mho
+Netlist warning in file
+ /foss/pdks/sky130A/libs.tech/ngspice/corners/../../../libs.ref/sky130_fd_pr/spice/sky130_fd_pr__nfet_01v8__tt.pm3.spice
+ at or near line 31
+ Device instance XM2:MSKY130_FD_PR__NFET_01V8: Source conductance reset to
+ 1.0e3 mho
+Netlist warning in file
+ /foss/pdks/sky130A/libs.tech/ngspice/corners/../../../libs.ref/sky130_fd_pr/spice/sky130_fd_pr__nfet_01v8__tt.pm3.spice
+ at or near line 31
+ Device instance XM2:MSKY130_FD_PR__NFET_01V8: Drain conductance reset to
+ 1.0e3 mho
+Netlist warning in file
+ /foss/pdks/sky130A/libs.tech/ngspice/corners/../../../libs.ref/sky130_fd_pr/spice/sky130_fd_pr__nfet_01v8_lvt__tt.pm3.spice
+ at or near line 33
+ Device instance XM1:MSKY130_FD_PR__NFET_01V8_LVT: Source conductance reset to
+ 1.0e3 mho
+Netlist warning in file
+ /foss/pdks/sky130A/libs.tech/ngspice/corners/../../../libs.ref/sky130_fd_pr/spice/sky130_fd_pr__nfet_01v8_lvt__tt.pm3.spice
+ at or near line 33
+ Device instance XM1:MSKY130_FD_PR__NFET_01V8_LVT: Drain conductance reset to
+ 1.0e3 mho
+Netlist warning in file
+ /foss/pdks/sky130A/libs.tech/ngspice/corners/../../../libs.ref/sky130_fd_pr/spice/sky130_fd_pr__pfet_01v8_hvt__tt.pm3.spice
+ at or near line 33
+ Device instance XM5:MSKY130_FD_PR__PFET_01V8_HVT: Source conductance reset to
+ 1.0e3 mho
+Netlist warning in file
+ /foss/pdks/sky130A/libs.tech/ngspice/corners/../../../libs.ref/sky130_fd_pr/spice/sky130_fd_pr__pfet_01v8_hvt__tt.pm3.spice
+ at or near line 33
+ Device instance XM5:MSKY130_FD_PR__PFET_01V8_HVT: Drain conductance reset to
+ 1.0e3 mho
+***** Device Count Summary ...
+       M level 14 (BSIM4)                     5
+       V level 1 (Independent Voltage Source) 2
+       ----------------------------------------
+       Total Devices                          7
+***** Setting up matrix structure...
+***** Number of Unknowns = 19
+***** Initializing...
+
+Netlist warning in file
+ /foss/pdks/sky130A/libs.tech/ngspice/corners/../../../libs.ref/sky130_fd_pr/spice/sky130_fd_pr__nfet_01v8_lvt__tt.pm3.spice
+ at or near line 33
+ Device instance XM1:MSKY130_FD_PR__NFET_01V8_LVT: Source conductance reset to
+ 1.0e3 mho
+Netlist warning in file
+ /foss/pdks/sky130A/libs.tech/ngspice/corners/../../../libs.ref/sky130_fd_pr/spice/sky130_fd_pr__nfet_01v8_lvt__tt.pm3.spice
+ at or near line 33
+ Device instance XM1:MSKY130_FD_PR__NFET_01V8_LVT: Drain conductance reset to
+ 1.0e3 mho
+Netlist warning in file
+ /foss/pdks/sky130A/libs.tech/ngspice/corners/../../../libs.ref/sky130_fd_pr/spice/sky130_fd_pr__nfet_01v8__tt.pm3.spice
+ at or near line 31
+ Device instance XM2:MSKY130_FD_PR__NFET_01V8: Source conductance reset to
+ 1.0e3 mho
+Netlist warning in file
+ /foss/pdks/sky130A/libs.tech/ngspice/corners/../../../libs.ref/sky130_fd_pr/spice/sky130_fd_pr__nfet_01v8__tt.pm3.spice
+ at or near line 31
+ Device instance XM2:MSKY130_FD_PR__NFET_01V8: Drain conductance reset to
+ 1.0e3 mho
+Netlist warning in file
+ /foss/pdks/sky130A/libs.tech/ngspice/corners/../../../libs.ref/sky130_fd_pr/spice/sky130_fd_pr__pfet_01v8_lvt__tt.pm3.spice
+ at or near line 33
+ Device instance XM3:MSKY130_FD_PR__PFET_01V8_LVT: Source conductance reset to
+ 1.0e3 mho
+Netlist warning in file
+ /foss/pdks/sky130A/libs.tech/ngspice/corners/../../../libs.ref/sky130_fd_pr/spice/sky130_fd_pr__pfet_01v8_lvt__tt.pm3.spice
+ at or near line 33
+ Device instance XM3:MSKY130_FD_PR__PFET_01V8_LVT: Drain conductance reset to
+ 1.0e3 mho
+Netlist warning in file
+ /foss/pdks/sky130A/libs.tech/ngspice/corners/../../../libs.ref/sky130_fd_pr/spice/sky130_fd_pr__pfet_01v8__tt.pm3.spice
+ at or near line 33
+ Device instance XM4:MSKY130_FD_PR__PFET_01V8: Source conductance reset to
+ 1.0e3 mho
+Netlist warning in file
+ /foss/pdks/sky130A/libs.tech/ngspice/corners/../../../libs.ref/sky130_fd_pr/spice/sky130_fd_pr__pfet_01v8__tt.pm3.spice
+ at or near line 33
+ Device instance XM4:MSKY130_FD_PR__PFET_01V8: Drain conductance reset to
+ 1.0e3 mho
+Netlist warning in file
+ /foss/pdks/sky130A/libs.tech/ngspice/corners/../../../libs.ref/sky130_fd_pr/spice/sky130_fd_pr__pfet_01v8_hvt__tt.pm3.spice
+ at or near line 33
+ Device instance XM5:MSKY130_FD_PR__PFET_01V8_HVT: Source conductance reset to
+ 1.0e3 mho
+Netlist warning in file
+ /foss/pdks/sky130A/libs.tech/ngspice/corners/../../../libs.ref/sky130_fd_pr/spice/sky130_fd_pr__pfet_01v8_hvt__tt.pm3.spice
+ at or near line 33
+ Device instance XM5:MSKY130_FD_PR__PFET_01V8_HVT: Drain conductance reset to
+ 1.0e3 mho
+------------------------------------------------------------
+Operating point information:
+Number of BSIM4 models: 5
+          name XM1:SKY130_FD_PR__NFET_01V8_LVT__MODEL.11XM2:SKY130_FD_PR__NFET_01V8__MODEL.13XM3:SKY130_FD_PR__PFET_01V8_LVT__MODEL.12XM4:SKY130_FD_PR__PFET_01V8__MODEL.13XM5:SKY130_FD_PR__PFET_01V8_HVT__MODEL.13
+          type            NMOS           NMOS           PMOS           PMOS           PMOS
+         level              54             54             54             54             54
+        TEMPMOD              0              0              0              0              0
+         IGCMOD              0              0              0              0              0
+        TNOIMOD              1              1              1              1              1
+
+        RGEOMOD              0              0              0              0              0
+       RGATEMOD              0              0              0              0              0
+       ACNQSMOD              0              0              0              0              0
+       TRNQSMOD              0              0              0              0              0
+         CAPMOD              2              2              2              2              2
+    CVCHARGEMOD              0              0              0              0              0
+         WPEMOD              0              0              0              0              0
+             EM        4.1e+07        4.1e+07        4.1e+07        4.1e+07        4.1e+07
+
+        IDOVVDS          1e-09          1e-09          1e-09          1e-09          1e-09
+      GIDLCLAMP         -1e-05         -1e-05         -1e-05         -1e-05         -1e-05
+          RNOIC          0.395          0.395          0.395          0.395          0.395
+          TNOIC              0              0              0              0              0
+           NOIC          8e+11              0              0              0              0
+           NOIA          9e+41        2.5e+42          3e+41        1.5e+42        1.2e+41
+         PKU0WE              0              0              0              0              0
+          PK2WE              0              0              0              0              0
+
+         MOBMOD              0              0              0              0              0
+          WK2WE              0              0              0              0              0
+         LKU0WE              0              0              0              0              0
+       LKVTH0WE              0              0              0              0              0
+          RNOIB           0.26           0.26           0.34           0.34           0.37
+          SCREF          1e-06          1e-06          1e-06          1e-06          1e-06
+          KU0WE              0              0              0              0              0
+           K2WE              0              0              0              0              0
+
+            WEB              0              0              0              0              0
+         STETA0              0              0              0              0              0
+          LODK2              1              1              1              1              1
+         LKVTH0              0              0              0              0              0
+           PKU0              0              0              0              0              0
+        WLODVTH              1              1              1              1              1
+        LLODKU0              0              0              0              0              0
+          KVSAT            0.2            0.2              0            0.5            0.4
+
+            KU0       -2.7e-08       -2.7e-08        5.9e-08        4.5e-08        4.5e-08
+       PKVTH0WE              0              0              0              0              0
+       PTVOFFCV              0              0              0              0              0
+         PTETA0              0              0              0              0              0
+      PTNFACTOR              0              0              0              0              0
+         PTVOFF              0              0              0              0              0
+            PEU              0              0              0              0              0
+            PXN              0              0              0              0              0
+
+        PLAMBDA              0              0              0              0              0
+        PXRCRG2              0              0              0              0              0
+        PXRCRG1              0              0              0              0              0
+          PNOFF              0              0              0              0              0
+          PACDE              0              0              0              0              0
+        LODETA0              1              1              1              1              1
+         PVFBCV              0              0              0              0              0
+       PEIGBINV              0              0              0              0              0
+
+       PNIGBINV              0              0              0              0              0
+       PCIGBACC              0              0              0              0              0
+       PARAMCHK              1              1              1              1              1
+       PBIGBACC              0              0              0              0              0
+       PAIGBACC              0              0              0              0              0
+          PCIGD              0              0              0              0              0
+          PAIGS              0              0              0              0              0
+         PAIGSD              0              0              0              0              0
+
+         PEGISL              0              0              0              0              0
+         PRGISL              0              0              0              0              0
+         PBGISL              0              0              0     -0.0158954    -0.00220107
+         PEGIDL              0              0              0              0              0
+         PCGIDL              0              0              0              0              0
+         PBETA0   -6.32548e-12    9.21107e-12              0   -7.63927e-10   -2.77826e-10
+           PCLE              0              0              0              0              0
+            PCF              0              0              0              0              0
+
+       PCKAPPAD              0              0              0              0              0
+       PCKAPPAS              0              0              0              0              0
+          PCGSL              0              0              0              0              0
+            PB1              0              0              0              0              0
+            PB0              0              0              0              0              0
+            PWR              0              0              0              0              0
+         PPDITS              0              0              0              0              0
+        PFPROUT              0              0              0              0              0
+
+        PVOFFCV              0              0              0              0              0
+       PPDIBLC2    5.24093e-14     2.5756e-14   -5.27311e-14   -3.52046e-15    1.03947e-15
+          PPCLM    7.66492e-12    1.57586e-12              0    -1.5711e-11    1.24999e-12
+          PETAB   -6.50437e-16    -3.8092e-15              0    2.69964e-10   -8.39672e-12
+           PPRT              0              0              0              0              0
+           PRDW              0              0              0              0              0
+           PRSW              0              0              0              0              0
+        PMINVCV              0              0              0              0              0
+
+         PUCSTE              0              0              0              0              0
+            PUP              0              0              0              0              0
+            PUD              0              0              0              0              0
+           PUB1    1.96127e-29   -5.66585e-30    3.66814e-30   -3.67949e-30    6.49954e-30
+          PVTH0    1.38166e-13    7.98736e-14   -9.75957e-13    -9.2218e-14   -2.60702e-13
+          PDSUB    8.10115e-12    1.20022e-11              0              0   -1.28237e-11
+         PDVT1W              0              0              0              0              0
+          PDVT1              0              0              0              0              0
+
+          PDVT0              0              0              0              0              0
+          PLPEB              0              0              0              0              0
+          PLPE0              0              0              0              0              0
+          TNOIA        2.5e+07        1.5e+07        2.5e+07        2.5e+07            1.5
+         PDVTP5              0              0              0              0              0
+         PDVTP2              0              0              0              0              0
+           PK3B              0              0              0              0              0
+          PKT1L              0              0              0              0              0
+
+            PLP              0              0              0              0              0
+            PK1   -2.09864e-12   -7.70668e-13              0   -2.65249e-13   -1.50885e-12
+           PVBM              0              0              0              0              0
+            PK3              0              0              0              0              0
+           PVBX              0              0              0              0              0
+        PGAMMA2              0              0              0              0              0
+        PGAMMA1              0              0              0              0              0
+          PPHIN              0              0              0              0              0
+
+           PNSD              0              0              0              0              0
+          PNDEP              0              0              0              0              0
+          PNSUB              0              0              0              0              0
+           WLOD              0              0              0              0              0
+           PAGS   -1.88321e-12    1.21679e-11    7.05451e-12    2.09853e-11   -1.53763e-11
+           TKU0              0              0              0              0              0
+            PAT   -1.84039e-07   -8.27595e-08   -1.18113e-05   -2.32232e-06    1.63872e-08
+          PVSAT   -5.42259e-08   -5.46413e-07   -5.51887e-06   -1.57131e-06    1.91596e-07
+
+            PXJ              0              0              0              0              0
+           PCIT     1.7171e-16              0              0              0              0
+         PCDSCD              0              0              0              0              0
+         PCDSCB              0              0              0              0              0
+     WTVFBSDOFF              0              0              0              0              0
+            WEU              0              0              0              0              0
+        WXRCRG1              0              0              0              0              0
+          PKETA    3.00423e-12   -1.10963e-13              0   -9.35744e-13    1.23733e-12
+
+        WVOFFCV              0              0              0              0              0
+          WNOFF              0              0              0              0              0
+          WMOIN              0              0              0              0              0
+         PDVTP3              0              0              0              0              0
+           WVFB              0              0              0              0              0
+       WPOXEDGE              0              0              0              0              0
+         WPIGCD              0              0              0              0              0
+          WNTOX              0              0              0              0              0
+
+       WNIGBACC              0              0              0              0              0
+       WNIGBINV              0              0              0              0              0
+           PUTE   -3.37925e-12    4.41581e-13              0    4.47585e-12   -4.41002e-12
+       WCIGBINV              0              0              0              0              0
+       WAIGBINV              0              0              0              0              0
+           PKT1    1.09894e-13     8.0694e-14   -3.11343e-12    -3.1979e-14    8.82877e-14
+       WCIGBACC              0              0              0              0              0
+       PNIGBACC              0              0              0              0              0
+
+       WTVOFFCV              0              0              0              0              0
+       WBIGBACC              0              0              0              0              0
+       WAIGBACC              0              0              0              0              0
+          WCIGD              0              0              0              0              0
+          WAIGD              0              0              0              0              0
+          WCIGS              0              0              0              0              0
+          WBIGS              0              0              0              0              0
+         WCIGSD              0              0              0              0              0
+
+         WBIGSD              0              0              0              0              0
+          WCIGC              0              0              0              0              0
+         WFGISL              0              0              0              0              0
+         WKGISL              0              0              0              0              0
+         WRGISL              0              0              0              0              0
+         WAGISL              0              0              0              0   -1.85705e-16
+         WEGIDL              0              0              0              0              0
+         WKGIDL              0              0              0              0              0
+
+         PBIGSD              0              0              0              0              0
+            PUB    4.96585e-31    4.79767e-30   -2.45546e-29    3.89944e-31   -6.58528e-30
+         WRGIDL              0              0              0              0              0
+         WCGIDL              0              0              0              0              0
+         WBGIDL              0              0              0        12428.3        6898.46
+         WAGIDL              0              0              0              0   -1.85705e-16
+        WALPHA1              0              0              0   -1.78998e-15   -1.73878e-15
+           WCLE              0              0              0              0              0
+
+            WCF              0              0              0              0              0
+       WCKAPPAD              0              0              0              0              0
+          WCGDL              0              0              0              0              0
+          WCGSL              0              0              0              0              0
+            WB1              0              0              0              0              0
+            WB0              0              0              0              0              0
+           WDWG              0              0              0              0              0
+          WPVAG              0              0              0              0              0
+
+        WPSCBE2              0              0              0    4.90516e-14    1.18769e-14
+        WFPROUT              0              0              0              0              0
+       WPDIBLC2    -2.4887e-08   -8.49049e-09    2.42824e-08    3.42461e-09   -1.01559e-09
+       PBIGBINV              0              0              0              0              0
+       WPDIBLC1              0    1.87018e-06              0   -1.67471e-07   -6.97295e-07
+       RBODYMOD              1              1              1              1              1
+          WETA0   -1.14795e-09    3.42824e-08              0    6.74464e-14    2.79328e-06
+           WPRT              0              0              0              0              0
+
+          WPRWB              0              0              0              0              0
+         PDELTA              0              0    -6.3514e-14              0              0
+          WPRWG              0              0              0              0              0
+           WRSW              0              0              0              0              0
+          WRDSW              0              0              0              0              0
+         WDELTA              0              0    1.63208e-07              0              0
+         PDROUT              0              0              0    3.49591e-12   -5.28622e-12
+        WMINVCV              0              0              0              0              0
+
+          WVOFF    1.74854e-07    1.42104e-07              0   -2.77326e-07   -4.61366e-07
+      WTNFACTOR              0              0              0              0              0
+         WUCSTE              0              0              0              0              0
+           WUTE    5.66899e-07    2.69569e-07              0   -3.24636e-06     3.9023e-06
+          WPCLM   -7.09873e-06   -2.60285e-06              0    1.18567e-05   -3.27103e-06
+            WU0   -3.47513e-08   -8.93264e-10   -1.52778e-08   -8.81089e-09   -5.73797e-08
+            WLP              0              0              0              0              0
+            WUP              0              0              0              0              0
+
+           WUD1              0              0              0              0              0
+           WUC1   -1.10229e-15    3.96055e-17              0    4.60469e-15    3.86442e-15
+            WUC    1.00289e-15    8.92084e-17    -1.7846e-16    7.43429e-17    3.22167e-16
+        NIGBINV              3              0              3              3              3
+         WBGISL              0              0              0        12428.3        6898.46
+         WBETA0    3.57165e-06   -4.66115e-06              0    0.000378087    0.000606501
+        BIGBINV           0.03           0.03           0.03           0.03           0.03
+        AIGBACC              1              1           0.43           0.43           0.43
+
+           CIGD          0.075          0.075          0.075          0.075          0.075
+         RBPBYL              0              0              0              0              0
+           PDWG              0              0              0              0              0
+         WDVT1W              0              0              0              0              0
+         LPIGCD              0              0              0              0              0
+          FGISL              0              0              0              0              0
+          RGISL              1              1              1              1              1
+        WPDITSD              0              0              0              0              0
+
+          CGISL            0.5            0.5            0.5            300            300
+          RGIDL              1              1              1              1              1
+        CIGBINV          0.006          0.006          0.006          0.006          0.006
+          CGIDL            0.5            0.5            0.5            300            300
+           NIGC              1              0              1              1              1
+          BETA0        20.6829        11.8242        6.20165       -68.3237       -81.1393
+         PNGATE              0              0              0              0              0
+            DWJ        2.6e-08              0              0              0              0
+
+          DLCIG              0              0              0              0              0
+             XL              0              0              0              0              0
+            CLE            0.6            0.6          0.492            0.6            0.6
+            VBM             -3             -3             -3             -3             -3
+           CGSL    2.31073e-11              0              0    9.54827e-12    7.51389e-12
+          WNDEP              0              0              0              0              0
+          PMOIN              0              0              0              0              0
+           WMAX          7e-06          7e-06          7e-06          7e-06          7e-06
+
+             B1              0              0     2.1073e-24              0              0
+         PAGISL              0              0              0              0    1.90073e-22
+          DVT1W        5.3e+06     1.6706e+06     1.9281e+06     1.1472e+06     1.1472e+06
+           WMIN       5.05e-06          5e-06          5e-06          5e-06          5e-06
+        BINUNIT              2              2              2              2              2
+            WWC              0              0              0              0              0
+          PAIGD              0              0              0              0              0
+        PALPHA0   -2.39703e-16    3.99036e-17              0   -1.62072e-15   -3.94078e-14
+
+          WDVT1              0              0              0              0              0
+            WLC              0              0              0              0              0
+           LWLC              0              0              0              0              0
+          LPHIN              0              0              0              0              0
+          WAIGC              0              0              0              0              0
+            LWC              0              0              0              0              0
+         LBETA0    1.10731e-06    4.02299e-06              0    0.000154688    4.29439e-05
+           LINT     1.2025e-08     1.1932e-08        2.8e-09    -1.3994e-08     -1.176e-08
+
+          DVTP0              0              0              0              0              0
+        LINTNOI         -3e-07         -1e-07              0         -2e-07         -6e-08
+         ALPHA0    0.000160629    3.85088e-07    5.04495e-13   -0.000160304     -0.0055503
+        TVOFFCV              0              0              0              0              0
+       LCIGBINV              0              0              0              0              0
+          TVOFF              0              0              0              0              0
+         DIOMOD              1              1              1              1              1
+          PETA0    2.26829e-15   -6.77467e-14              0   -6.93341e-20   -2.85509e-12
+
+      TVFBSDOFF              0              0              0              0              0
+           LK3B              0              0              0              0              0
+        WLODKU0              1              1              1              1              1
+        LLAMBDA              0              0              0              0              0
+          PCGDL              0              0              0              0              0
+             XN              0              3              3              3              3
+           PRWG              0       0.021507          0.052         0.1376           0.02
+            VTL              0              0              0              0              0
+
+           DVT2       -0.05637         -0.032       0.026237          0.015           0.03
+          NGCON              1              1              1              1              1
+         MJSWGD            0.8            0.8         0.9274         0.9274        0.70393
+            XGL              0              0              0              0              0
+            DLC    1.21071e-08    9.87908e-09       -1.2e-08         -3e-09      -2.56e-09
+            XGW              0              0              0              0              0
+          VOFFL              0    5.81977e-09              0              0              0
+             UD              0              0              0              0              0
+
+       LAIGBINV              0              0              0              0              0
+            WLN              1              1              1              1              1
+         PFGISL              0              0              0              0              0
+          NJTSD             20             20             20             20             20
+           LRDW              0              0              0              0              0
+           DMCG              0              0              0              0              0
+         PDITSD              0              0              0              0              0
+         ALPHA1              0       0.816811   -4.05837e-18    4.59045e-10    3.49064e-10
+
+            TPB      0.0012287      0.0012287       0.001671      0.0020386      0.0019551
+            LWL              0              0              0              0              0
+           LCIT   -3.43557e-11              0              0              0              0
+          FGIDL              0              0              0              0              0
+        PPSCBE1              0      0.0137583              0     0.00040326    1.90961e-05
+       PPDIBLCB              0    3.14986e-15              0   -6.52442e-16   -8.51954e-13
+          PMINV              0              0              0              0              0
+          LNIGC              0              0              0              0              0
+
+             LP              1              1              1              1              1
+         PBSWGD            0.1            0.2         0.7418         0.7418         0.7418
+           STK2              0              0              0              0              0
+            CJS     0.00120948     0.00133975    0.000765357    0.000738019    0.000743263
+          WCDSC              0              0              0              0              0
+          MJSWD          0.001         0.0009         0.2659        0.29781        0.26859
+          PBSWD            0.1            0.2         0.7418         0.7418         0.7418
+         XRCRG2              1              1              1              1              1
+
+          JSWGD              0              0              0              0              0
+           JSWD          6e-10          6e-10     1.4472e-10       8.04e-10        8.2e-10
+         PBSWGS        0.79644        0.95578         1.4338         1.4338         1.3925
+           XTSS           0.02           0.02           0.02           0.02           0.02
+            JSD        0.00275        0.00275     2.1483e-05     2.1483e-05       2.17e-05
+            WUD              0              0              0              0              0
+           LNSD              0              0              0              0              0
+            WK1    2.21785e-06    5.76331e-07              0    2.10288e-07    1.41687e-06
+
+         WDVT0W              0              0              0              0              0
+          PAIGC              0              0              0              0              0
+            VFB              0             -1             -1             -1             -1
+           WVTL              0              0              0              0              0
+           AIGD           0.43           0.43           0.43           0.43           0.43
+           NJTS             20             20             20             20             20
+         WEGISL              0              0              0              0              0
+           WKT2    6.68753e-07    1.45779e-07    1.05982e-06   -2.53763e-08   -2.01425e-07
+
+          LBIGS              0              0              0              0              0
+          DVTP1              0              0              0              0              0
+            KT1      -0.214561      -0.359948       -0.81484      -0.455903      -0.353993
+           PCLC              0              0              0              0              0
+          PVOFF   -1.85539e-13   -1.85527e-13              0    3.15704e-13    4.61166e-13
+           WWLC              0              0              0              0              0
+        TBGASUB       0.000702       0.000702       0.000702       0.000702       0.000702
+         CJSWGD    1.79529e-10    2.38233e-10    2.39155e-10    2.39155e-10    2.54074e-10
+
+           CGSO    2.39289e-10    2.44907e-10          2e-11    5.24892e-11    5.93202e-11
+         WTVOFF              0              0              0              0              0
+           LKT1   -2.16405e-08    8.73371e-08    4.45728e-07   -1.17668e-08   -9.59215e-08
+           RBSB             50             50             50             50             50
+            DWC        2.6e-08              0              0              0              0
+          PNTOX              0              0              0              0              0
+        WPSCBE1              0       -6962.21              0       -392.281       -18.6573
+             K2        0.10116      0.0102919       -0.05922      0.0663842      0.0603684
+
+          TPBSW              0              0       0.001246       0.001246     0.00014242
+           LPEB    -4.9152e-08     -7.082e-08              0              0              0
+         PDVT2W              0              0              0              0              0
+            WXN              0              0              0              0              0
+          LCIGD              0              0              0              0              0
+        XTSSWGD           0.02           0.02           0.02           0.02           0.02
+          EGIDL            0.8            0.8            0.8            0.1            0.1
+         LDELTA              0              0     2.1414e-08              0              0
+
+         NI0SUB       1.45e+10       1.45e+10       1.45e+10       1.45e+10       1.45e+10
+          RNOIA          0.912           0.94           0.69           0.69          0.577
+            PRT              0              0              0              0              0
+           RBPB             50             50             50             50             50
+         WNGATE              0              0              0              0              0
+          PBSWS            0.1            0.2         0.7418         0.7418         0.7418
+          WACDE              0              0              0              0              0
+           XTSD           0.02           0.02           0.02           0.02           0.02
+
+            LLC              0              0              0              0              0
+             EF            1.2           0.84           0.88              1           0.88
+          AIGSD           0.43           0.43           0.43           0.43           0.43
+          DVTP3              0              0              0              0              0
+            LUA   -5.48388e-16   -5.60756e-16   -3.38008e-15   -1.22075e-16    -1.7535e-15
+          DMCGT              0              0              0              0              0
+         WCGISL              0              0              0              0              0
+            DWB      -1.08e-08              0              0    -1.7864e-08    -1.7864e-08
+
+          LVOFF     2.9019e-08   -9.43722e-09              0    -2.9735e-08   -8.26698e-08
+        CKAPPAS            0.6            0.6            0.6            0.6            0.6
+             LW              0              0              0              0              0
+           ACDE        0.38008            0.4           0.44            0.8          0.552
+         VDDEOT            1.5            1.5           -1.5           -1.5           -1.5
+        NJTSSWG             20             20             20             20             20
+             U0      0.0432428      0.0338419      0.0053421      0.0110471      0.0183889
+        JTSSWGS              0              0              0              0              0
+
+       PNFACTOR   -8.86049e-12   -2.55687e-12              0    7.54434e-12    2.87148e-11
+           CIGS          0.075          0.075          0.075          0.075          0.075
+           CIGC          0.075          0.075          0.075          0.075          0.075
+           JSWS          6e-10          6e-10     1.4472e-10       8.04e-10        8.2e-10
+         PCIGSD              0              0              0              0              0
+           XTID              2              2            5.2            5.2              2
+          WLPEB              0              0              0              0              0
+        FNOIMOD              1              1              1              1              1
+
+           PHIN              0              0              0              0              0
+           NDEP        1.7e+17        1.7e+17        1.7e+17        1.7e+17        1.7e+17
+         PDVTP4              0              0              0              0              0
+           RDSW         103.65         65.968          484.7         547.88         531.92
+          LETAB    1.75805e-10    9.10607e-10              0   -5.41526e-05    1.20171e-06
+          TETA0              0              0              0              0              0
+            PU0    2.35136e-14    7.97739e-16    1.74409e-14   -2.96939e-15    5.69935e-14
+           KETA       0.154569      0.0514451       -0.01258     -0.0724434      0.0287935
+
+         LDVT2W              0              0              0              0              0
+           BIGC          0.054          0.054          0.054          0.054          0.054
+         TNJTSD              0              0              0              0              0
+           LVBM              0              0              0              0              0
+            K3B            1.6           0.54              1              2              2
+            CLC          1e-07          1e-07          7e-08          1e-07          1e-07
+           LUTE    7.92983e-07    1.53387e-06              0   -7.83501e-07    -1.9448e-06
+         PFGIDL              0              0              0              0              0
+
+          EASUB           4.05           4.05           4.05           4.05           4.05
+          PBIGS              0              0              0              0              0
+           JTSS              0              0              0              0              0
+           WCLC              0              0              0              0              0
+           LCLC              0              0              0              0              0
+           NSUB          6e+16          6e+16          6e+16          6e+16          6e+16
+           CGBO          1e-14          1e-13          1e-13              0              0
+           VOFF      -0.142234      -0.104074        -0.1819      -0.208292      -0.122446
+
+           VSAT        7224.89        20435.4        -387693       -75792.7        91237.9
+         TCJSWG              0              0          2e-12          2e-12          2e-12
+        CKAPPAD            0.6            0.6            0.6            0.6            0.6
+             LL              0              0              0              0              0
+           TOXP      4.148e-09      4.148e-09       4.23e-09       4.23e-09       4.23e-09
+       PPDIBLC1              0   -3.69573e-12              0    3.39628e-13    1.41099e-12
+        LEFFEOT          1e-06          1e-06          1e-06          1e-06          1e-06
+        VERSION            4.5            4.5            4.5            4.5            4.5
+
+         EPSROX            3.9            3.9            3.9            3.9            3.9
+         TPBSWG              0              0              0              0              0
+           LMIN          1e-06          1e-06        1.5e-06          1e-06          1e-06
+       TNJTSSWG              0              0              0              0              0
+         RDSMOD              0              0              0              0              0
+            KT2      -0.142202     -0.0869881      -0.206772     -0.0367164     -0.0112676
+          DROUT         3.4946       0.852841        0.43496       0.646835      -0.110415
+           NOFF         3.8661         3.4037         2.6123            3.9              4
+
+           VTH0       0.450124       0.514369        -0.6296       -1.08403       -1.14655
+           WINT        2.6e-08     2.1859e-08      7.476e-09     7.3039e-09      9.364e-09
+          CDSCB    -0.00011484              0         0.0001        0.00078              0
+            PW0              0              0              0              0              0
+          DVT0W              0          -3.58            0.5        -4.9772         -4.254
+          LKT1L              0              0              0              0              0
+        BIGBACC              0              0          0.054          0.054          0.054
+            EOT        1.5e-09        1.5e-09        1.5e-09        1.5e-09        1.5e-09
+
+        CIGBACC              0              0          0.075          0.075          0.075
+          XJBVD              1              1              1              1              1
+           WUCS              0              0              0              0              0
+           RBDB             50             50             50             50             50
+         PDVTP0              0              0              0              0              0
+         XRCRG1             12             12             12             12             12
+         RBPSNF              0              0              0              0              0
+       LTVOFFCV              0              0              0              0              0
+
+  MTRLCOMPATMOD              0              0              0              0              0
+           AIGS           0.43           0.43           0.43           0.43           0.43
+             CF          1e-14     1.4067e-12              0        1.2e-11        1.2e-11
+          CJSWS    3.23031e-11    3.67354e-11    9.16024e-11    9.88889e-11    9.50786e-11
+         BG0SUB           1.16           1.16           1.16           1.16           1.16
+         IGBMOD              0              0              0              0              0
+           LRSW              0              0              0              0              0
+           TOXM      4.148e-09      4.148e-09       4.23e-09       4.23e-09       4.23e-09
+
+           BDOS              1              1              1              1              1
+         VOFFCV       -0.16994       -0.17287          0.112       -0.10701        -0.1375
+         WDVTP5              0              0              0              0              0
+       WEIGBINV              0              0              0              0              0
+          WAIGS              0              0              0              0              0
+             A0        2.50328        2.24072      -0.773096       0.463296       0.704598
+          WNIGC              0              0              0              0              0
+         TOXREF      4.148e-09      4.148e-09       4.23e-09       4.23e-09       4.23e-09
+
+          TCJSW          1e-05          1e-05     0.00037357     0.00037357              0
+            UA1    3.79186e-09   -8.56153e-10    8.46437e-10    2.24618e-09     3.0053e-09
+        TEMPEOT         300.15         300.15         300.15         300.15         300.15
+         WPDITS              0              0              0              0              0
+            VBX              0              0              0              0              0
+          BGIDL        2.3e+09        2.3e+09        2.3e+09   -9.81368e+08   -1.17651e+08
+         WKVTH0          3e-07          2e-07        7.3e-07          2e-07        2.5e-07
+           CGDL    2.31073e-11              0              0    9.54827e-12    7.51389e-12
+
+             LC              0          5e-09          5e-09          5e-09          5e-09
+             XJ        1.5e-07        1.5e-07        1.5e-07        1.5e-07        1.5e-07
+          KGIDL              0              0              0              0              0
+           DMDG              0              0              0              0              0
+             XW              0              0              0              0              0
+            NSD          1e+20          1e+20          1e+20          1e+20          1e+20
+          WDSUB   -1.63552e-06   -6.07359e-06              0              0     9.9793e-06
+            CIT    4.02023e-05              0   -6.39311e-11          1e-05          1e-05
+
+        WGAMMA2              0              0              0              0              0
+           DMCI              0              0              0              0              0
+          NGATE          1e+23          1e+23          1e+23          1e+23          1e+23
+           LPE0     2.3802e-07     1.0325e-07              0              0              0
+            LWN              1              1              1              1              1
+           DSUB       0.183864        1.13311              1           0.26       -1.74363
+       LEIGBINV              0              0              0              0              0
+         LDVTP4              0              0              0              0              0
+
+         LBGIDL              0              0              0        2851.05        577.355
+           PUA1   -1.47945e-20    3.81533e-21    6.45518e-22    6.51389e-21   -5.22265e-21
+           RSHG            0.1            0.1            0.1            0.1            0.1
+         LCDSCD              0              0              0              0              0
+            WWN              1              1              1              1              1
+          VFBCV             -1             -1             -1       -0.14469      -0.144689
+          PPRWB              0              0              0              0              0
+            LUD              0              0              0              0              0
+
+           PKT2   -1.04671e-12   -1.42952e-13   -2.11371e-12    1.97944e-14    2.17146e-13
+        VOFFCVL              0              0              0              0              0
+        TBGBSUB           1108           1108           1108           1108           1108
+           AIGC           0.43           0.43           0.43           0.43           0.43
+          PNIGC              0              0              0              0              0
+           PDWB              0              0              0              0              0
+             WR              1              1              1              1              1
+       WCKAPPAS              0              0              0              0              0
+
+          DVTP4              0              0              0              0              0
+         NJTSSW             20             20             20             20             20
+        LLODVTH              0              0              0              0              0
+         CJSWGS    1.79529e-10    2.38233e-10    2.39155e-10    2.39155e-10    2.54074e-10
+             AF              1              1              1              1              1
+        LPSCBE1              0       -3017.39              0       -56.8115       -2.73534
+           WCIT   -1.75941e-10              0              0              0              0
+      PVFBSDOFF              0              0              0              0              0
+
+          BGISL        2.3e+09        2.3e+09        2.3e+09   -9.81368e+08   -1.17651e+08
+           DVT0        0.07665              0         2.4422         4.4955           4.05
+        XTSSWGS           0.02           0.02           0.02           0.02           0.02
+            WA1              0              0              0              0              0
+         PBGIDL              0              0              0     -0.0158954    -0.00220107
+           DVT1         0.1252           0.53        0.16136          0.294            0.3
+          CJSWD    3.23031e-11    3.67354e-11    9.16024e-11    9.88889e-11    9.50786e-11
+            PUC   -1.15918e-21   -2.60703e-22    2.01854e-22    1.96549e-23   -2.00361e-22
+
+           PVAG              0              0              0              0              0
+         PKVTH0              0              0              0              0              0
+          WVTH0   -1.52674e-07   -4.36737e-08    1.11208e-06    1.40137e-07    2.26759e-07
+          WLPE0              0              0              0              0              0
+             UA   -8.78333e-10   -9.29975e-10   -4.90147e-10   -5.35046e-10    1.00214e-09
+          SAREF       2.74e-06       2.75e-06          3e-06       2.74e-06       2.75e-06
+             UB    2.78049e-18    2.07462e-18   -8.16221e-19    9.29006e-19    2.89225e-19
+            UB1   -4.76421e-18   -3.46436e-19     3.8933e-20   -4.27736e-19   -5.86795e-20
+
+           NOIB          1e+27              0              0              0          2e+25
+          XJBVS              1              1              1              1              1
+       WNFACTOR    7.96638e-06    1.83431e-06              0   -5.58095e-06   -2.58139e-05
+          LPRWB              0              0              0              0              0
+             UC   -8.46775e-11    7.46101e-11    5.30366e-11   -5.36297e-11   -1.27968e-10
+            UC1    1.69923e-10     1.1775e-11     -9.961e-12   -6.80795e-10   -6.99626e-10
+           DTOX              0              0              0              0              0
+        LALPHA1              0    6.55852e-08              0   -7.28139e-16              0
+
+           TOXE      4.148e-09      4.148e-09       4.23e-09       4.23e-09       4.23e-09
+        VTSSWGS             10             10             10             10             10
+           PHIG           4.05           4.05           4.05           4.05           4.05
+           WKU0              0              0              0        2.5e-07        2.5e-07
+            PA2              0              0              0   -3.63006e-12              0
+          AGIDL              0              0              0          1e-10    1.37281e-10
+            PBS         0.7477          0.729         0.6587         0.6587         0.6587
+          LMOIN              0              0              0              0              0
+
+            UD1              0              0              0              0              0
+         GEOMOD              0              0              0              0              0
+         PDVTP1              0              0              0              0              0
+         LNGATE              0              0              0              0              0
+          KGISL              0              0              0              0              0
+        PDIBLCB              0     -0.0489872         -0.025     -0.0499803     -0.0620461
+          LCIGC              0              0              0              0              0
+          WBIGD              0              0              0              0              0
+
+         PSCBE2          1e-08          1e-12     8.6797e-09    1.92379e-09    6.52938e-09
+          LK2WE              0              0              0              0              0
+       PPOXEDGE              0              0              0              0              0
+             EU           1.67           1.67           1.67           1.67           1.67
+             W0          1e-07              0          1e-08              0              0
+           RBPD             50             50             50             50             50
+        PPDITSD              0              0              0              0              0
+           LCLE              0              0              0              0              0
+
+      WVFBSDOFF              0              0              0              0              0
+             AT        28.8674         156215        -846004         -89494         129507
+       IJTHSFWD            0.1            0.1            0.1            0.1            0.1
+            WWR              0              0              0              0              0
+          UCSTE      -0.004775      -0.004775      -0.004775      -0.004775      -0.004775
+           BIGS          0.054          0.054          0.054          0.054          0.054
+          WBIGC              0              0              0              0              0
+         PSCBE1        4.5e+08    2.32692e+09          8e+08    8.55265e+08    8.02672e+08
+
+          PRDSW              0              0              0              0              0
+             WW              0              0              0              0              0
+          DVTP2              0              0              0              0              0
+          CDSCD     4.7984e-06         0.0054          1e-10              0              0
+       LNIGBACC              0              0              0              0              0
+           TNOM             30             30             30             30             30
+        RDSWMIN              0              0              0              0              0
+       EPSRGATE           11.7           11.7           11.7           11.7           11.7
+
+         LDVTP2              0              0              0              0              0
+           PVTL              0              0              0              0              0
+            NJS         1.2928         1.2928         1.3632         1.3632         1.2556
+           CGDO    2.39289e-10    2.44907e-10          2e-11    5.24892e-11    5.93202e-11
+            RSW              0              0              0              0              0
+          CIGSD          0.075          0.075          0.075          0.075          0.075
+          LNSUB              0              0              0              0              0
+        WEFFEOT          1e-05          1e-05          1e-05          1e-05          1e-05
+
+         LDVTP3              0              0              0              0              0
+         PKGISL              0              0              0              0              0
+         LEGIDL              0              0              0              0              0
+       TNFACTOR              0              0              0              0              0
+           ADOS              1              1              1              1              1
+             WL              0              0              0              0              0
+          XPART              0              0              0              0              0
+         WKU0WE              0              0              0              0              0
+
+          DELTA           0.01           0.01    -0.00639613           0.01           0.01
+       IJTHDFWD            0.1            0.1            0.1            0.1            0.1
+          PIGCD              1              1              1              1              1
+            UTE       -1.40597       -2.56197       -0.13298       0.300064       0.547694
+            RSH              1              1              1              1              1
+           PRWB              0              0            0.1       -0.32348       -0.32348
+            JSS        0.00275        0.00275     2.1483e-05     2.1483e-05       2.17e-05
+             KF              0              0              0              0              0
+
+          RBPSL              0              0              0              0              0
+            WWL              0              0              0              0              0
+      TNJTSSWGD              0              0              0              0              0
+             B0              0              0              0              0              0
+         RSWMIN              0              0              0              0              0
+           LVFB              0              0              0              0              0
+          WMINV              0              0              0              0              0
+       VFBSDOFF              0              0              0              0              0
+
+            MJD        0.42197           0.44         0.3362        0.34629        0.34629
+           ETA0    0.000756432    -0.00641104            0.2        -0.5027       -0.62405
+         RBPBYW              0              0              0              0              0
+          SBREF       2.74e-06       2.74e-06          3e-06       2.74e-06       2.74e-06
+       NJTSSWGD             20             20             20             20             20
+            PBD         0.7477          0.729         0.6587         0.6587         0.6587
+          MJSWS          0.001         0.0009         0.2659        0.29781        0.26859
+         PERMOD              1              1              1              1              1
+
+            LK2   -1.15017e-07   -6.93639e-08   -2.20552e-08   -8.72133e-08    -3.1117e-08
+        PDIBLC1           0.39      -0.188442              0       0.432576       0.536396
+           RBPS             50             50             50             50             50
+            TCJ       0.000792       0.000792      0.0012407      0.0012407      0.0012407
+            PA0     2.5049e-12    1.11197e-11   -1.95388e-12   -1.05343e-11    -1.7452e-11
+         FPROUT              0              0              0              0              0
+     PTVFBSDOFF              0              0              0              0              0
+            LUP              0              0              0              0              0
+
+            NJD         1.2928         1.2928         1.3632         1.3632         1.2556
+          BIGSD          0.054          0.054          0.054          0.054          0.054
+         GAMMA2              0              0              0              0              0
+         MJSWGS            0.8            0.8         0.9274         0.9274        0.70393
+         RBPBXW              0              0              0              0              0
+          JSWGS              0              0              0              0              0
+           MINV              0              0              0              0              0
+         WDVT2W              0              0              0              0              0
+
+           XTIS              2              2            5.2            5.2              2
+        NIGBACC              1              0              1              1              1
+           LUCS              0              0              0              0              0
+          PPVAG              0              0              0              0              0
+           WRDW              0              0              0              0              0
+         XTSSWD           0.02           0.02           0.02           0.02           0.02
+        EIGBINV            1.1            1.1            1.1            1.1            1.1
+        POXEDGE              1              1              1              1              1
+
+        RBSDBXW              0              0              0              0              0
+          PCIGS              0              0              0              0              0
+          DVTP5              0              0              0              0              0
+         PDITSL              0              0              0              0              0
+       IJTHDREV            0.1            0.1            0.1            0.1            0.1
+         LCGIDL              0              0              0              0              0
+            LK3              0              0              0              0              0
+       IJTHSREV            0.1            0.1            0.1            0.1            0.1
+
+         LBGISL              0              0              0        2851.05        577.355
+            WXT              0              0              0              0              0
+         JTSSWS              0              0              0              0              0
+         JTSSWD              0              0              0              0              0
+            LA0   -7.94011e-07    -1.8711e-06    2.00486e-07    1.15473e-06    2.45967e-06
+        JTSSWGD              0              0              0              0              0
+        NJTSSWD             20             20             20             20             20
+         LCGISL              0              0              0              0              0
+
+         PPIGCD              0              0              0              0              0
+         XTSSWS           0.02           0.02           0.02           0.02           0.02
+        WALPHA0    1.80409e-10   -2.01927e-11              0    7.99177e-10    3.87481e-08
+          TNJTS              0              0              0              0              0
+        TNJTSSW              0              0              0              0              0
+       WKVTH0WE              0              0              0              0              0
+       TNJTSSWD              0              0              0              0              0
+           LMAX          2e-06          2e-06          2e-06          2e-06          2e-06
+
+           VTSS             10             10             10             10             10
+         RBSBY0            100            100            100            100            100
+         VTSSWS             10             10             10             10             10
+         WDROUT              0              0              0   -1.72383e-06    2.61239e-06
+        LXRCRG1              0              0              0              0              0
+          LAIGC              0              0              0              0              0
+         VTSSWD             10             10             10             10             10
+        AIGBINV           0.35           0.35           0.35           0.35           0.35
+
+        VTSSWGD             10             10             10             10             10
+         PKGIDL              0              0              0              0              0
+            AGS       0.874439        1.17895       0.371045        1.94686      -0.534717
+          DVT2W         -0.032          0.068         -0.032       -0.00896       -0.00896
+       LPDIBLCB              0    4.74021e-08              0    5.06597e-08    1.22447e-07
+            LEU              0              0              0              0              0
+          WETAB    3.29177e-10    1.93951e-09              0   -0.000133119    2.94111e-06
+         LDVTP1              0              0              0              0              0
+
+             K1       0.109808       0.434089        0.64774       0.324439        0.34333
+          RBPSW              0              0              0              0              0
+           WDWB              0              0              0              0              0
+          LNOFF              0              0              0              0              0
+          RBPD0             50             50             50             50             50
+          RBPDW              0              0              0              0              0
+         RBPDNF              0              0              0              0              0
+            UCS           1.67           1.67           1.67           1.67           1.67
+
+         RBPBX0            100            100            100            100            100
+           LUD1              0              0              0              0              0
+         RBPBXL              0              0              0              0              0
+          PDITS     1.4427e-15              0              0              0              0
+       LNIGBINV              0              0              0              0              0
+         LVFBCV              0              0              0              0              0
+        RBPBXNF              0              0              0              0              0
+            PA1              0              0              0              0              0
+
+         RBPBY0            100            100            100            100            100
+          EGISL            0.8            0.8            0.8            0.1            0.1
+        RBPBYNF              0              0              0              0              0
+         RBSBX0            100            100            100            100            100
+            LLN              1              1              1              1              1
+           NTOX              1              1              1              1              1
+        RBSDBYW              0              0              0              0              0
+         WCDSCB              0              0              0              0              0
+
+         RBDBX0            100            100            100            100            100
+         RBDBY0            100            100            100            100            100
+          PBIGD              0              0              0              0              0
+            LXJ              0              0              0              0              0
+     LTVFBSDOFF              0              0              0              0              0
+           JTSD              0              0              0              0              0
+        RBSDBXL              0              0              0              0              0
+       WPDIBLCB              0   -1.59395e-09              0    3.21719e-10    4.20985e-07
+
+         JTWEFF              0              0              0              0              0
+            LB1              0              0              0              0              0
+          LBIGC              0              0              0              0              0
+       RBSDBXNF              0              0              0              0              0
+        RBSDBYL              0              0              0              0              0
+          LCDSC              0              0              0              0              0
+          TNOIB        9.9e+06        9.9e+06              0              0            3.5
+         LCDSCB              0              0              0              0              0
+
+       LNFACTOR    2.09296e-06    1.44158e-07              0   -6.71553e-07   -5.10013e-06
+             UP              0              0              0              0              0
+          LPRWG              0              0              0              0              0
+            RDW              0              0              0              0              0
+         LBIGSD              0              0              0              0              0
+          LVSAT      0.0597853       0.117708       0.790097       0.262077       0.038344
+         GAMMA1              0              0              0              0              0
+            LAT      0.0667613      -0.087588        1.61089       0.352982       0.112627
+
+            LXN              0              0              0              0              0
+            LA1              0              0              0              0              0
+          LAIGD              0              0              0              0              0
+           WUA1   -3.59835e-15   -2.33977e-15   -3.23665e-16   -5.79972e-15    9.55294e-15
+            LA2              0              0              0    7.28139e-07              0
+           MOIN          23.81            6.9            8.7          18.13         14.504
+          WPHIN              0              0              0              0              0
+          LNDEP              0              0              0              0              0
+
+        LGAMMA1              0              0              0              0              0
+         WTETA0              0              0              0              0              0
+        LGAMMA2              0              0              0              0              0
+          PBIGC              0              0              0              0              0
+           LVBX              0              0              0              0              0
+            LXT              0              0              0              0              0
+         LDVTP5              0              0              0              0              0
+           LKU0              0              0              0              0              0
+
+        PDIBLC2      0.0105972       0.006815    -0.00675508   -0.000256929    0.000198824
+            LK1    3.04768e-07    1.75892e-07              0     2.0593e-07    1.12051e-07
+           LKT2    1.82848e-07    5.92488e-08    3.02605e-07   -1.00414e-08   -3.83367e-08
+            PUA    3.93184e-23   -3.04807e-21    1.60238e-20   -9.20517e-22     1.2678e-20
+       LPDIBLC1              0    1.14308e-06              0   -8.63443e-08   -2.96236e-07
+       PAIGBINV              0              0              0              0              0
+         LDVTP0              0              0              0              0              0
+          LLPE0              0              0              0              0              0
+
+        PALPHA1              0              0              0    3.63006e-21              0
+          WDVT2              0              0              0              0              0
+          GBMIN          1e-12          1e-12          1e-12          1e-12          1e-12
+          LDVT2              0              0              0              0              0
+           PUD1              0              0              0              0              0
+         LDVT0W              0              0              0              0              0
+          PPRWG              0              0              0              0              0
+            BVS           11.9           11.7          12.69          12.69           12.8
+
+         LDVT1W              0              0              0              0              0
+         LDROUT              0   -5.78693e-07              0     -1.761e-07     1.3566e-06
+       PCIGBINV              0              0              0              0              0
+         MINVCV              0              0              0              0              0
+          LCGDL              0              0              0              0              0
+       LCKAPPAS              0              0              0              0              0
+         WAIGSD              0              0              0              0              0
+          LDSUB   -5.05007e-07   -1.72538e-06              0              0    3.18196e-06
+
+         PCGISL              0              0              0              0              0
+           LAGS    1.57319e-06   -1.15139e-06    -5.8571e-07   -2.74592e-06    2.52148e-06
+          LVTH0   -1.34786e-08    3.57878e-08    1.52841e-07    4.66882e-08    6.69357e-08
+          RBPS0             50             50             50             50             50
+           LUA1    2.08612e-15    2.76718e-15   -2.99852e-16   -4.61673e-16   -4.38854e-15
+         LTETA0              0              0              0              0              0
+         PRGIDL              0              0              0              0              0
+           LUB1   -2.54316e-24   -9.26303e-25   -7.45302e-26   -6.97378e-25    1.97026e-24
+
+            LUC    1.93076e-16      1.155e-17    3.69278e-17    4.78624e-18    4.69757e-17
+           LUC1   -3.80357e-16    5.57522e-17              0    6.87224e-16    6.29612e-16
+            LLP              0              0              0              0              0
+            LU0   -1.15181e-08   -7.73105e-09   -2.98821e-09   -7.95326e-10   -8.29639e-09
+            LWR              0              0              0              0              0
+        WLAMBDA              0              0              0              0              0
+        LPSCBE2              0              0              0    1.16299e-14    2.36664e-15
+         LUCSTE              0              0              0              0              0
+
+            PK2    7.43599e-13    3.04968e-13    6.72605e-14    1.45107e-13    4.66282e-13
+          LMINV              0              0              0              0              0
+         PDVT0W              0              0              0              0              0
+            DWG      -1.33e-08              0     -7.916e-09     -5.722e-09     -5.722e-09
+        LMINVCV              0              0              0              0              0
+          PCIGC              0              0              0              0              0
+          LRDSW              0              0              0              0              0
+           LPRT              0              0              0              0              0
+
+          LETA0   -5.06697e-10    1.36572e-08              0    1.02048e-06    8.63121e-07
+          LPCLM   -1.10147e-06   -5.49583e-07              0     2.6962e-06    5.48335e-08
+           PUC1    2.01089e-21    -1.2709e-22              0   -4.72796e-21   -3.35336e-21
+       LPDIBLC2   -4.23099e-09   -5.24781e-09    2.80235e-08    7.06154e-10    2.36613e-10
+        LFPROUT              0              0              0              0              0
+         LPDITS              0              0              0              0              0
+        LPDITSD              0              0              0              0              0
+          LPVAG              0              0              0              0              0
+
+           LDWG              0              0              0              0              0
+             K3           1.65              2           3.39        -15.845        -13.778
+           LDWB              0              0              0              0              0
+            LB0              0              0              0              0              0
+           PCLM        1.25093         1.0968       0.030097       -1.51475       0.962045
+          LCGSL              0              0              0              0              0
+       LCKAPPAD              0              0              0              0              0
+            WA0   -2.17266e-06   -6.08902e-06    1.30877e-05    5.80131e-06    7.22583e-06
+
+        PPSCBE2              0              0              0   -8.13132e-20   -1.02799e-20
+            PXT              0              0              0              0              0
+          LKETA   -5.10663e-07   -1.09325e-07              0    1.13784e-07   -1.44593e-07
+            LCF              0              0              0              0              0
+            BVD           11.9           11.7          12.69          12.69           12.8
+        LALPHA0   -8.56677e-11   -7.01703e-13              0    3.25094e-10    5.64478e-09
+          KVTH0        7.9e-09        9.8e-09       1.76e-08       3.29e-08       2.65e-08
+         LRGIDL              0              0              0              0              0
+
+         PAGIDL              0              0              0              0    1.90073e-22
+         LKGIDL              0              0              0              0              0
+           WUB1     5.9468e-24    4.60531e-24   -2.45459e-24    2.92532e-24   -1.40435e-23
+         LFGIDL              0              0              0              0              0
+          AGISL              0              0              0          1e-10    1.37281e-10
+            MJS        0.42197           0.44         0.3362        0.34629        0.34629
+         LAGISL              0              0              0              0   -3.81575e-17
+            CJD     0.00120948     0.00133975    0.000765357    0.000738019    0.000743263
+
+          WVSAT      0.0830938       0.276506        3.34193       0.774814      -0.466098
+           PUCS              0              0              0              0              0
+       RBSDBYNF              0              0              0              0              0
+          LDVT0              0              0              0              0              0
+         LRGISL              0              0              0              0              0
+          RBPDL              0              0              0              0              0
+          LDVT1              0              0              0              0              0
+         LKGISL              0              0              0              0              0
+
+         WVFBCV              0              0              0              0              0
+         LFGISL              0              0              0              0              0
+         LEGISL              0              0              0              0              0
+          PCDSC              0              0              0              0              0
+            WAT       0.215161       0.063083        7.34711        1.12012      -0.666194
+         LAIGSD              0              0              0              0              0
+           WAGS   -3.98688e-07   -6.24491e-06   -1.42354e-06   -1.10056e-05    8.38923e-06
+         LCIGSD              0              0              0              0              0
+
+             XT       1.55e-07       1.55e-07       1.55e-07       1.55e-07       1.55e-07
+          LAIGS              0              0              0              0              0
+          LCIGS              0              0              0              0              0
+          LBIGD              0              0              0              0              0
+        NFACTOR      -0.213431        2.60505         2.5373        2.06551        6.17446
+       LAIGBACC              0              0              0              0              0
+       LBIGBACC              0              0              0              0              0
+       LCIGBACC              0              0              0              0              0
+
+          PDVT2              0              0              0              0              0
+         LAMBDA              0              0              0              0              0
+       LBIGBINV              0              0              0              0              0
+          WKT1L              0              0              0              0              0
+         RDWMIN              0              0              0              0              0
+          LNTOX              0              0              0              0              0
+       LPOXEDGE              0              0              0              0              0
+            WEC              0              0              0              0              0
+
+           KT1L              0              0              0              0              0
+          LACDE              0              0              0              0              0
+        LVOFFCV              0              0              0              0              0
+       WBIGBINV              0              0              0              0              0
+        LXRCRG2              0              0              0              0              0
+         LAGIDL              0              0              0              0   -3.81575e-17
+           VTSD             10             10             10             10             10
+           LVTL              0              0              0              0              0
+
+      LVFBSDOFF              0              0              0              0              0
+        KVTH0WE              0              0              0              0              0
+           PVFB              0              0              0              0              0
+         LTVOFF              0              0              0              0              0
+             A1              0              0              0              0              0
+         WDVTP0              0              0              0              0              0
+      LTNFACTOR              0              0              0              0              0
+            LUB    7.81937e-26    2.30852e-25    5.30416e-24    7.27662e-26    8.16406e-25
+
+          LLPEB              0              0              0              0              0
+         WCDSCD              0              0              0              0              0
+            WXJ              0              0              0              0              0
+        GIDLMOD              0              0              0              0              0
+         DLCIGD              0              0              0              0              0
+            WA2              0              0              0    1.78998e-06              0
+          WKETA   -2.08083e-06     8.2239e-08              0    4.59378e-07   -7.16375e-07
+          WNSUB              0              0              0              0              0
+
+           WNSD              0              0              0              0              0
+        WXRCRG2              0              0              0              0              0
+        WGAMMA1              0              0              0              0              0
+          NTNOI              1              1              1              1              1
+           WVBX              0              0              0              0              0
+           WVBM              0              0              0              0              0
+           ETAB   -0.000588972   -0.000963205       -0.00025        26.7021      -0.421274
+           WKT1   -2.50972e-07   -9.80665e-08    1.56109e-06   -2.10698e-09   -2.48001e-07
+
+           BIGD          0.054          0.054          0.054          0.054          0.054
+           WK3B              0              0              0              0              0
+            WW0              0              0              0              0              0
+        MTRLMOD              0              0              0              0              0
+             A2        0.38689       0.423855       0.467037       0.440955            0.8
+         WDVTP1              0              0              0              0              0
+         WDVTP2              0              0              0              0              0
+        EPSRSUB           11.7           11.7           11.7           11.7           11.7
+
+         WDVTP3              0              0              0              0              0
+         WFGIDL              0              0              0              0              0
+         WDVTP4              0              0              0              0              0
+          WDVT0              0              0              0              0              0
+            LW0              0              0              0              0              0
+           CDSC     3.8556e-37              0     2.8125e-07        0.00013              0
+            WK2   -8.01948e-07    -2.1863e-07    8.16854e-08   -1.03446e-07   -4.79475e-07
+            WUA   -4.98872e-16    3.54558e-15   -1.21868e-14   -1.48922e-15    -1.1978e-14
+
+            WK3              0              0              0              0              0
+            WUB   -1.13104e-24   -5.36255e-24    1.84977e-23    8.96019e-25    5.77662e-24
+
+Number of BSIM4 instances: 5
+          name XM1:MSKY130_FD_PR__NFET_01V8_LVTXM2:MSKY130_FD_PR__NFET_01V8XM3:MSKY130_FD_PR__PFET_01V8_LVTXM4:MSKY130_FD_PR__PFET_01V8XM5:MSKY130_FD_PR__PFET_01V8_HVT
+         model XM1:SKY130_FD_PR__NFET_01V8_LVT__MODEL.11XM2:SKY130_FD_PR__NFET_01V8__MODEL.13XM3:SKY130_FD_PR__PFET_01V8_LVT__MODEL.12XM4:SKY130_FD_PR__PFET_01V8__MODEL.13XM5:SKY130_FD_PR__PFET_01V8_HVT__MODEL.13
+         GEOMOD              0              0              0              0              0
+       RGATEMOD              0              0              0              0              0
+       RBODYMOD              1              1              1              1              1
+       TRNQSMOD              0              0              0              0              0
+            SCC              0              0              0              0              0
+            IC3              0              0              0              0              0
+             SA              0              0              0              0              0
+             SD              0              0              0              0              0
+             AS              0              0              0              0              0
+              W          6e-06          6e-06          6e-06          6e-06          6e-06
+             SB              0              0              0              0              0
+            SCA              0              0              0              0              0
+          NGCON              1              1              1              1              1
+        RGEOMOD              0              0              0              0              0
+             NF              1              1              1              1              1
+           TEMP             25             25             25             25             25
+             AD              0              0              0              0              0
+         DELVTO              0              0              0              0              0
+            MIN              0              0              0              0              0
+              L       1.75e-06       1.75e-06       1.75e-06       1.75e-06       1.75e-06
+             PD              0              0              0              0              0
+            SCB              0              0              0              0              0
+           RBSB             50             50             50             50             50
+            XGW              0              0              0              0              0
+             PS              0              0              0              0              0
+            NRD              0              0              0              0              0
+            NRS              0              0              0              0              0
+            OFF              0              0              0              0              0
+           RBDB             50             50             50             50             50
+           RBPB             50             50             50             50             50
+       ACNQSMOD              0              0              0              0              0
+           RBPD             50             50             50             50             50
+         DELVT0              0              0              0              0              0
+              M              1              1              1              1              1
+             SC              0              0              0              0              0
+           RBPS             50             50             50             50             50
+            IC1              0              0              0              0              0
+            IC2              0              0              0              0              0
+
+
+Number of Independent Voltage Source models: 1
+          name V level 1 (Independent Voltage Source)
+          type                
+         level               1
+
+Number of Independent Voltage Source instances: 2
+          name             VDD           VSIG
+         model V level 1 (Independent Voltage Source)V level 1 (Independent Voltage Source)
+   DCSOURCETYPE              6              6
+   ACSOURCETYPE              7              7
+TRANSIENTSOURCETYPE              6              6
+          PHASE              0              0
+             TF              0              0
+           DATA                              
+             FS              0              0
+             VA              0              0
+        ACPHASE              0              0
+          THETA              0              0
+            MDI              0              0
+            NUM              0              0
+             V2              0              0
+           FREQ              0              0
+            VHI              0              0
+             Z0             50             50
+             V1              0              0
+             TR              0              0
+           TAU1              0              0
+             PW              0              0
+             V0              0              0
+           TAU2              0              0
+             TD              0              0
+            PER              0              0
+           DCV0            1.8              0
+             RB              1              1
+              V              0              0
+            TD2              0              0
+           PORT              0              0
+          ACMAG              0              0
+             FC              0              0
+              R              0              0
+              T              0              0
+            TD1              0              0
+            VLO              0              0
+        TSAMPLE              0              0
+
+------------------------------------------------------------
+
+***** Solution Summary *****
+	Number Successful Steps Taken:		19
+	Number Failed Steps Attempted:		0
+	Number Jacobians Evaluated:		73
+	Number Linear Solves:			73
+	Number Failed Linear Solves:		0
+	Number Residual Evaluations:		93
+	Number Nonlinear Convergence Failures:	0
+	Total Residual Load Time:		0.000882149 seconds
+	Total Jacobian Load Time:		0.000205517 seconds
+	Total Linear Solution Time:		0.000585318 seconds
+
+
+***** Total Simulation Solvers Run Time: 0.00984287 seconds
+***** Total Elapsed Run Time:            0.603071 seconds
+*****
+***** End of Xyce(TM) Simulation
+*****
+
+Timing summary of 1 processor
+                 Stats                   Count       CPU Time              Wall Time
+---------------------------------------- ----- --------------------- ---------------------
+Xyce                                         1        0.561 (100.0%)        0.954 (100.0%)
+  Analysis                                   1        0.008 ( 1.51%)        0.010 ( 1.03%)
+    DC Sweep                                 1        0.008 ( 1.50%)        0.010 ( 1.03%)
+      Solve                                 19        0.002 ( 0.36%)        0.003 ( 0.32%)
+        Residual                            93        0.001 ( 0.11%)        0.001 ( 0.10%)
+        Jacobian                            73        0.000 ( 0.03%)        0.000 ( 0.03%)
+        Linear Solve                        73        0.000 ( 0.08%)        0.001 ( 0.07%)
+      Successful Step                       19        0.005 ( 0.93%)        0.005 ( 0.57%)
+  Netlist Import                             1        0.517 (92.16%)        0.574 (60.22%)
+    Parse Context                            1        0.492 (87.81%)        0.550 (57.64%)
+    Distribute Devices                       1        0.019 ( 3.37%)        0.019 ( 1.98%)
+    Verify Devices                           1        0.000 (<0.01%)        0.000 (<0.01%)
+    Instantiate                              1        0.000 ( 0.05%)        0.000 ( 0.03%)
+  Late Initialization                        1        0.002 ( 0.40%)        0.002 ( 0.23%)
+    Global Indices                           1        0.000 (<0.01%)        0.000 (<0.01%)
+  Setup Matrix Structure                     1        0.000 ( 0.04%)        0.000 ( 0.02%)
+
